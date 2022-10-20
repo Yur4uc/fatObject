@@ -1,0 +1,486 @@
+@media screen and (max-width: 913px){
+
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .logo {
+        width: 175px;
+    }
+
+    .page-progress-frame {
+        display: none;
+    }
+
+    .wrapper-text {
+        max-width: 720px;
+    }
+
+    .wrapper-content {
+        margin-left: -10%;
+        margin-top: 5%;
+    }
+
+    .wrapper-img {
+        width: 67%;
+        margin-top: -15px;
+        margin-left: 30%;
+    }
+
+    .main-content {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .main-h2 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .contacts-content {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .contact-form {
+        width: auto;
+    }
+
+    .contact-h2 {
+        font-size: 40px;
+    }
+
+    .contact-info {
+        width: 100%;
+        margin-top: 80px;
+        margin-bottom: 15px;
+        padding-left: 0px;
+    }
+
+    .contact-info-header {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .contact-info-p {
+        width: 50%;
+        margin-left: auto;
+    }
+
+    .contact-info-list {
+        margin-bottom: 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .contact-info-image {
+        width: 50%;
+        float: left;
+    }
+
+    .data-block {
+        margin-top: -50%;
+        margin-left: -20px;
+    }
+
+    .footer-logo {
+        position: static;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .nav-list {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .nav-open {
+        display: block;
+        margin-top: -25px ;
+    }
+
+    .nav.open .btn {
+        position: fixed;
+        display: flex;
+        top: 30%;
+        left: 0%;
+        height: 50px;
+        width: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav.open .nav-list {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+
+        padding: 46px 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        font-size: 34px;
+        font-weight: 400;
+    }
+
+    .nav-open {
+        position: absolute;
+        z-index: 9;
+        padding-top:10px;
+        top: 30px;
+        right: 30px;
+    }
+
+    .header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .modal {
+        position: absolute;
+        margin-left: 15%;
+    }
+
+    .wrapper-content {
+        max-width: 480px;
+    }
+
+    .heading {
+        font-size: 48px;
+    }
+
+    .wrapper-img {
+        width: 65%;
+        margin-top: -50px;
+        margin-left: 30%;
+    }
+
+    .wrapper-text {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .data-block {
+        margin-left: -20px;
+        top: 70%;
+    }
+
+    .data-img {
+        width: 26px;
+        height: 26px;
+        margin-bottom: 12px
+    }
+
+    .data-time {
+        font-size: 16px;
+    }
+
+    .data-location {
+        padding-top: 5px;
+        padding-bottom: 4px;
+        font-size: 12px;
+    }
+
+    .data-line {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .data-geo {
+        font-size: 12px;
+    }
+
+    .main-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .main-content {
+        max-width: 640px;
+    }
+
+    .main-project-list {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    h4 {
+        font-size: 13px;
+    }
+
+    .contact-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contacts-content {
+        max-width: 560px
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .form-row {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .form-row-filed {
+        margin-right: 0px;
+        margin-bottom: -10px;
+    }
+
+    .form-text {
+        margin-bottom: 10px;
+    }
+
+    .input {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .submit {
+        position: relative;
+        margin-left: 0px;
+    }
+
+    .modal {
+        margin-left: 10%;
+    }
+
+    .contact-info {
+        margin-top: 80px;
+        margin-bottom: -13px;
+    }
+
+    .contact-info-header {
+        display: block;
+    }
+
+    .contact-info-p {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .contact-info-list {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .contact-info-image {
+        width: 100%;
+        float: none;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .nav-open {
+       left: 90%;
+    }
+
+    .wrapper-img {
+        right: 10%;
+        width: 70%;
+        margin-top: -80px;
+        margin-left: 30%;
+    }
+
+    .data-block {
+        margin-left: -20%;
+        top: 50%;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .wrapper-content {
+        margin-left: -15%;
+    }
+
+    .item-projects {
+        width: 100%;
+        margin-bottom: 60px
+    }
+
+    .card-title {
+        padding-top: 6px
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+   .main-content {
+       margin-bottom: -25%;
+   }
+}
+
+@media screen and (max-width: 376px) {
+    .wrapper-img {
+        right: 10%;
+        width: 90%;
+        margin-top: -80px;
+        margin-left: 30%;
+    }
+
+    .nav.open .btn {
+        position: fixed;
+        display: flex;
+        top: 25%;
+        left: -20%;
+        height: 50px;
+        width: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .wrapper-content {
+        margin-left: -20%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .wrapper-img {
+        right: 10%;
+        width: 90%;
+        margin-top: -80px;
+        margin-left: 30%;
+    }
+
+    .nav.open .btn {
+        position: fixed;
+        display: flex;
+        top: 20%;
+        left: 0%;
+        height: 50px;
+        width: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .data-block {
+        margin-left: -18%;
+        top: 35%;
+    }
+
+    .wrapper-content {
+        margin-left: -20%;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .wrapper-img {
+        right: 10%;
+        width: 100%;
+        margin-top: -80px;
+        margin-left: 30%;
+    }
+
+    .nav.open .btn {
+        position: fixed;
+        display: flex;
+        top: 22%;
+        left: 0%;
+        height: 50px;
+        width: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .data-block {
+        margin-left: -18%;
+        top: 40%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .data-block {
+        margin-left: -18%;
+        top: 80%;
+    }
+
+    .nav.open .btn {
+        position: fixed;
+        display: flex;
+        top: 22%;
+        left: 0%;
+        height: 50px;
+        width: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 281px) {
+    .wrapper-img {
+        right: 10%;
+        width: 120%;
+        margin-top: -80px;
+        margin-left: 30%;
+    }
+
+    .nav.open .btn {
+        position: fixed;
+        display: flex;
+        top: 25%;
+        left: 0%;
+        height: 50px;
+        width: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .data-block {
+        margin-left: -30%;
+    }
+
+    .nav-open {
+        margin-left: -3%;
+    }
+
+    .wrapper-content {
+        margin-left: -35%;
+    }
+
+    .wrapper-text {
+        font-size: 15px;
+    }
+}
+
+
