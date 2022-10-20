@@ -437,7 +437,7 @@
     .nav.open .btn {
         position: fixed;
         display: flex;
-        top: 22%;
+        top: 25%;
         left: 0%;
         height: 50px;
         width: 50px;
